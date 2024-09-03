@@ -1,0 +1,106 @@
+#about{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+#photo-cadre{
+    width: 500px;
+    height: 600px;
+   
+    display: flex;
+
+}
+#PhotoProfile{
+    width: 390px;
+    height: 550px;
+    background-image: url(./img/photo_profil.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 340px;
+    z-index: 1;
+    border-radius: 10px;
+}
+#cadre  {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    z-index: 0;
+    left: 85px;
+    background-color: #282c34;
+}
+
+#cadre::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(to right, #2e6bc4, #0092e2, #00b5e4, #00d4cd, #20eea7);
+    border-radius: inherit; /* Applique le même border-radius que le conteneur */
+    padding: 5px; /* Espace pour créer l'effet de bordure */
+    box-sizing: border-box; /* Inclut le padding dans la taille totale */
+}
+
+#cadre::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: -1;
+    background-color: #282c34;
+    border-radius: inherit; /* Respecte le border-radius */
+}
+
+#text-presentation{
+    width: 750px;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+em{
+    font-size: 25px;
+    background: linear-gradient(to right, #2e6bc4, #0092e2, #00b5e4, #00d4cd, #20eea7);
+    background-clip: text;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    font-size: 20px;
+}
+@media screen and (max-width:768px) {
+    #photo-cadre{
+        width:280px;
+        height: 270px;
+        visibility: inherit;
+        margin-bottom: 20px;
+    }
+    #cadre{
+        width: 190px;
+        height: 260px;
+    }
+    #PhotoProfile{
+        width: 170px;
+        height: 250px;
+    }
+    #text-presentation{
+        width: 500px;
+        height: 495px;
+        
+    }
+    p{
+        font-size: 15px;
+    }
+}

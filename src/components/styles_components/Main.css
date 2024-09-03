@@ -1,0 +1,32 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    max-height: 500px;
+    
+}
+#Hello{
+    font-size: 25px;
+}
+#presentation{
+    font-size: 32px;
+    
+}
+#metier{
+    font-size: 62px;
+    background: linear-gradient(to right, #2e6bc4, #0092e2, #00b5e4, #00d4cd, #20eea7);
+    background-clip: text;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width:768px) {
+    #metier{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:375px){
+    #metier{
+        font-size: 35px;
+    }
+}

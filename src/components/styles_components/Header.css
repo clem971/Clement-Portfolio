@@ -1,0 +1,31 @@
+/* src/index.css */
+
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Assurez-vous que le header reste au-dessus des autres éléments */
+    background-color: #343a40;
+}
+a{
+    text-decoration: none;
+   
+}
+ul{
+    list-style: none;
+   
+   
+}
+li{
+    display: inline;
+   margin: 20px;
+ 
+   
+}
+img{
+    width: 60px;
+    
+}
+body {
+    padding-top: 85px; /* Ajustez en fonction de la hauteur de votre header */
+}

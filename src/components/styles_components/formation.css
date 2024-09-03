@@ -1,0 +1,119 @@
+#partie-formation{
+    width: 100%;
+    min-height: 200px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.mes-formation{
+    width: 600px;
+    height: 150px;
+    border: solid;
+    display: flex;
+    
+    border-radius: 20px;
+
+}
+.trait{
+    width: 5px;
+    height: 100px;
+    
+    background:linear-gradient(to right, #2e6bc4, #0092e2, #00b5e4, #00d4cd, #20eea7) ;
+}
+.text-formation{
+    margin-left: 20px;
+    text-align: center;
+}
+.text-formation span{
+    font-size: 20px;
+    text-align: center;
+    
+}
+#experience{
+    width: 100%;
+    min-height: 300px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+#bloc-experience{
+    max-width: 1200px;
+    min-height: 200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+.bloc{
+    width: 200px;
+    height: 200px;
+   
+    margin-bottom: 10px;
+    background-size: contain;
+}
+#bloc1{
+    background-image: url(./img/html-5.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+#bloc2{
+    background-image: url(./img/css-3.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+#bloc3{
+    background-image: url(./img/js.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+#bloc4{
+    background-image: url(./img/atom.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+#bloc5{
+    background-image: url(./img/web.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+#bloc6{
+    background-image: url(./img/symfony_black_01.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+#bloc7{
+    background-image: url(./img/wordpress-logo-2.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+#bloc8{
+    background-image: url(./img/mysql.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+#bloc9{
+    background-image: url(./img/mongoDB.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+@media screen and (max-width:768px) {
+    .mes-formation{
+        width: 400px;
+    }
+    .bloc{
+        width: 150px;
+    }
+}
+@media screen and (max-width:375px){
+    .mes-formation{
+        width: 300px;
+    }
+}
+

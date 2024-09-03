@@ -1,0 +1,258 @@
+#PartiePortfolio{
+    width: 100%;
+    min-height: 300px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.ContenuePortfolio{
+    
+   
+    width: 1200px;
+    min-height: 150px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+}
+#imgPampa{
+    width: 400px;
+    height: 300px;
+    background-image: url("./capture/maison_pampa.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    top: -1em;
+
+}
+.rectangle-gauche{
+    position: relative;
+    width: 400px;
+    height : 250px;
+    border-radius: 5px;
+    z-index: 0;
+    left: 85px;
+    background-color: #282c34;
+    
+}
+
+.rectangle-gauche::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(to right, #2e6bc4, #0092e2, #00b5e4, #00d4cd, #20eea7);
+    border-radius: inherit; /* Applique le même border-radius que le conteneur */
+    padding: 5px; /* Espace pour créer l'effet de bordure */
+    box-sizing: border-box; /* Inclut le padding dans la taille totale */
+}
+
+.rectangle-gauche::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: -1;
+    background-color: #282c34;
+    border-radius: inherit; /* Respecte le border-radius */
+}
+.rectangle-droite{
+    position: relative;
+    width: 400px;
+    height : 250px;
+    border-radius: 5px;
+    z-index: 0;
+    right: 85px;
+    background-color: #282c34;
+    
+}
+
+.rectangle-droite::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(to right, #2e6bc4, #0092e2, #00b5e4, #00d4cd, #20eea7);
+    border-radius: inherit; /* Applique le même border-radius que le conteneur */
+    padding: 5px; /* Espace pour créer l'effet de bordure */
+    box-sizing: border-box; /* Inclut le padding dans la taille totale */
+}
+
+.rectangle-droite::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: -1;
+    background-color: #282c34;
+    border-radius: inherit; /* Respecte le border-radius */
+}
+#Projet1{
+    width: 600px;
+    height: 300px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#Projet2{
+    width: 600px;
+    height: 300px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#imgCHI{
+    width: 400px;
+    height: 300px;
+    background-image: url("./capture/CHI.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+}
+#img-projet{
+    width: 400px;
+    height: 300px;
+    background-image: url("capture/projet.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    top: -1em;
+}
+#imgPortfolio{
+    width: 400px;
+    height: 300px;
+    background-image: url("capture/portfolio.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    top: -1em;
+}
+#Projet3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 300px;
+   
+}
+#Projet4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 300px;
+    
+}
+@media screen and (max-width:768px){
+    /* #PartiePortfolio{
+        width: 500px;
+    } */
+    .ContenuePortfolio{
+        width: 400px;
+        margin-bottom: 60px;
+    }
+    .rectangle-gauche{
+        width: 190px;
+        height: 160px;
+    }
+    .rectangle-droite{
+        width: 190px;
+        height: 160px;
+        left: 85px;
+    }
+    
+    #Projet1{
+        width: 450px;
+        
+       
+    }
+
+        #imgPampa{
+    width: 250px;
+    top: 65px;
+    }
+    #imgCHI{
+        width: 250px;
+        bottom: -80px;
+    }
+    #img-projet{
+        width: 250px;
+        top: 65px;
+    }
+    #imgPortfolio{
+        width: 250px;
+        bottom: -80px;
+    }
+}
+@media screen and (max-width:375px){
+    .ContenuePortfolio{
+        width: 370px;
+        
+    }
+    #imgPampa{
+        width: 200px;
+    }
+    #imgCHI{
+        width: 200px;
+       
+    }
+    #img-projet{
+        width: 200px;
+        
+    }
+    #imgPortfolio{
+        width: 200px;
+        
+    }
+}
+@media (min-width:770px) and (max-width:1200px){
+    .ContenuePortfolio{
+        width: 500px;
+        
+    }
+    /* #imgPampa{
+        width: 260px;
+    }
+    #imgCHI{
+        width: 160px;
+       
+    }
+    #img-projet{
+        width: 160px;
+        
+    } */
+    /* .rectangle-gauche{
+        width: 170px;
+        height: 130px;
+    }
+    .rectangle-droite{
+        width: 170px;
+        height: 130px;
+        left: 85px;
+    }  */
+}

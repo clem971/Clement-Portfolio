@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/clement-portfolio/static/css/main.45a0acdc.css",
+    "main.js": "/clement-portfolio/static/js/main.c329c73f.js",
+    "static/js/453.b9c089a5.chunk.js": "/clement-portfolio/static/js/453.b9c089a5.chunk.js",
+    "static/media/FitApp.png": "/clement-portfolio/static/media/FitApp.7bcd6d59d32f29c3168d.png",
+    "static/media/maison_pampa.png": "/clement-portfolio/static/media/maison_pampa.27f2bde616d8ea2bd72e.png",
+    "static/media/Capture d’écran 2024-09-02 à 15.10.08.png": "/clement-portfolio/static/media/Capture d’écran 2024-09-02 à 15.10.08.a075c471b0135d0cde62.png",
+    "static/media/photo_profil.jpeg": "/clement-portfolio/static/media/photo_profil.948d5e4b036b59f83ee4.jpeg",
+    "static/media/CHI.png": "/clement-portfolio/static/media/CHI.665fd7b12e0f29d697d0.png",
+    "static/media/Arimo-VariableFont_wght.ttf": "/clement-portfolio/static/media/Arimo-VariableFont_wght.4ddb268fb129e0f4d61e.ttf",
+    "static/media/projet.png": "/clement-portfolio/static/media/projet.cd639f8d19bdcb02c19b.png",
+    "static/media/wordpress-logo-2.png": "/clement-portfolio/static/media/wordpress-logo-2.6bc8733083d899c1d3d7.png",
+    "static/media/bootstrap-icons.woff?": "/clement-portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/Sevillana-Regular.ttf": "/clement-portfolio/static/media/Sevillana-Regular.32847eb69e8f7abd6778.ttf",
+    "static/media/bootstrap-icons.woff2?": "/clement-portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/logo3.png": "/clement-portfolio/static/media/logo3.c87397926dd0f5480a1f.png",
+    "static/media/CV-Clement.pdf": "/clement-portfolio/static/media/CV-Clement.7404d680c57de5d4c804.pdf",
+    "static/media/atom.png": "/clement-portfolio/static/media/atom.ac9979693620f0a96231.png",
+    "static/media/mysql.png": "/clement-portfolio/static/media/mysql.bdbd1eb709e4c13258d2.png",
+    "static/media/web.png": "/clement-portfolio/static/media/web.8fcf65555e8bfa076e90.png",
+    "static/media/symfony_black_01.png": "/clement-portfolio/static/media/symfony_black_01.d62372d263a7c680ec7b.png",
+    "static/media/html-5.png": "/clement-portfolio/static/media/html-5.cfb2ba4a6b1c3de295bc.png",
+    "static/media/mongoDB.png": "/clement-portfolio/static/media/mongoDB.2178943141ba7e7fae4e.png",
+    "static/media/css-3.png": "/clement-portfolio/static/media/css-3.4a6549b8c2b4cda8bb88.png",
+    "static/media/js.png": "/clement-portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/clement-portfolio/index.html",
+    "main.45a0acdc.css.map": "/clement-portfolio/static/css/main.45a0acdc.css.map",
+    "main.c329c73f.js.map": "/clement-portfolio/static/js/main.c329c73f.js.map",
+    "453.b9c089a5.chunk.js.map": "/clement-portfolio/static/js/453.b9c089a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45a0acdc.css",
+    "static/js/main.c329c73f.js"
+  ]
+}
